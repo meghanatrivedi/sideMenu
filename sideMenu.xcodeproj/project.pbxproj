@@ -16,6 +16,17 @@
 		C7AD7A732850F7120087ABE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7AD7A712850F7120087ABE0 /* LaunchScreen.storyboard */; };
 		C7AD7A7E2850F7120087ABE0 /* sideMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AD7A7D2850F7120087ABE0 /* sideMenuTests.swift */; };
 		C7AD7A892850F7120087ABE0 /* sideMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AD7A882850F7120087ABE0 /* sideMenuUITests.swift */; };
+		C7AD7A9B2850F90D0087ABE0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AD7A9A2850F90D0087ABE0 /* HomeViewController.swift */; };
+		C7AD7AA32850F94D0087ABE0 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AD7AA22850F94D0087ABE0 /* MusicViewController.swift */; };
+		C7AD7AA82850F9790087ABE0 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AD7AA72850F9790087ABE0 /* MoviesViewController.swift */; };
+		C7AD7AAD2850F9B60087ABE0 /* BooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AD7AAC2850F9B60087ABE0 /* BooksViewController.swift */; };
+		C7AD7AB22850F9C70087ABE0 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AD7AB12850F9C70087ABE0 /* ProfileViewController.swift */; };
+		C7AD7AB72850F9D80087ABE0 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AD7AB62850F9D70087ABE0 /* SettingsViewController.swift */; };
+		C7AD7ABD2850FA060087ABE0 /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AD7ABC2850FA060087ABE0 /* MenuModel.swift */; };
+		C7AD7AC22850FACE0087ABE0 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AD7AC12850FACE0087ABE0 /* SideMenuViewController.swift */; };
+		C7AD7AC72850FB270087ABE0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AD7AC62850FB270087ABE0 /* MainViewController.swift */; };
+		C7AD7ACE2850FC950087ABE0 /* SideMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AD7ACC2850FC950087ABE0 /* SideMenuCell.swift */; };
+		C7AD7ACF2850FC950087ABE0 /* SideMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7AD7ACD2850FC950087ABE0 /* SideMenuCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,17 @@
 		C7AD7A842850F7120087ABE0 /* sideMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sideMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7AD7A882850F7120087ABE0 /* sideMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sideMenuUITests.swift; sourceTree = "<group>"; };
 		C7AD7A8A2850F7120087ABE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7AD7A9A2850F90D0087ABE0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C7AD7AA22850F94D0087ABE0 /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		C7AD7AA72850F9790087ABE0 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		C7AD7AAC2850F9B60087ABE0 /* BooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewController.swift; sourceTree = "<group>"; };
+		C7AD7AB12850F9C70087ABE0 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		C7AD7AB62850F9D70087ABE0 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		C7AD7ABC2850FA060087ABE0 /* MenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
+		C7AD7AC12850FACE0087ABE0 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		C7AD7AC62850FB270087ABE0 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C7AD7ACC2850FC950087ABE0 /* SideMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuCell.swift; sourceTree = "<group>"; };
+		C7AD7ACD2850FC950087ABE0 /* SideMenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SideMenuCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +123,9 @@
 		C7AD7A622850F70E0087ABE0 /* sideMenu */ = {
 			isa = PBXGroup;
 			children = (
+				C7AD7ACB2850FC7B0087ABE0 /* cell */,
+				C7AD7ABB2850F9F60087ABE0 /* Model */,
+				C7AD7A992850F8E20087ABE0 /* sideViews */,
 				C7AD7A632850F70E0087ABE0 /* AppDelegate.swift */,
 				C7AD7A652850F70E0087ABE0 /* SceneDelegate.swift */,
 				C7AD7A672850F70E0087ABE0 /* ViewController.swift */,
@@ -109,6 +134,8 @@
 				C7AD7A712850F7120087ABE0 /* LaunchScreen.storyboard */,
 				C7AD7A742850F7120087ABE0 /* Info.plist */,
 				C7AD7A6C2850F70E0087ABE0 /* sideMenu.xcdatamodeld */,
+				C7AD7AC12850FACE0087ABE0 /* SideMenuViewController.swift */,
+				C7AD7AC62850FB270087ABE0 /* MainViewController.swift */,
 			);
 			path = sideMenu;
 			sourceTree = "<group>";
@@ -129,6 +156,36 @@
 				C7AD7A8A2850F7120087ABE0 /* Info.plist */,
 			);
 			path = sideMenuUITests;
+			sourceTree = "<group>";
+		};
+		C7AD7A992850F8E20087ABE0 /* sideViews */ = {
+			isa = PBXGroup;
+			children = (
+				C7AD7A9A2850F90D0087ABE0 /* HomeViewController.swift */,
+				C7AD7AA22850F94D0087ABE0 /* MusicViewController.swift */,
+				C7AD7AA72850F9790087ABE0 /* MoviesViewController.swift */,
+				C7AD7AAC2850F9B60087ABE0 /* BooksViewController.swift */,
+				C7AD7AB12850F9C70087ABE0 /* ProfileViewController.swift */,
+				C7AD7AB62850F9D70087ABE0 /* SettingsViewController.swift */,
+			);
+			path = sideViews;
+			sourceTree = "<group>";
+		};
+		C7AD7ABB2850F9F60087ABE0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C7AD7ABC2850FA060087ABE0 /* MenuModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C7AD7ACB2850FC7B0087ABE0 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				C7AD7ACC2850FC950087ABE0 /* SideMenuCell.swift */,
+				C7AD7ACD2850FC950087ABE0 /* SideMenuCell.xib */,
+			);
+			path = cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +294,7 @@
 				C7AD7A732850F7120087ABE0 /* LaunchScreen.storyboard in Resources */,
 				C7AD7A702850F7120087ABE0 /* Assets.xcassets in Resources */,
 				C7AD7A6B2850F70E0087ABE0 /* Main.storyboard in Resources */,
+				C7AD7ACF2850FC950087ABE0 /* SideMenuCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,9 +319,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7AD7AA32850F94D0087ABE0 /* MusicViewController.swift in Sources */,
+				C7AD7ACE2850FC950087ABE0 /* SideMenuCell.swift in Sources */,
+				C7AD7AC72850FB270087ABE0 /* MainViewController.swift in Sources */,
+				C7AD7AAD2850F9B60087ABE0 /* BooksViewController.swift in Sources */,
+				C7AD7A9B2850F90D0087ABE0 /* HomeViewController.swift in Sources */,
+				C7AD7AB72850F9D80087ABE0 /* SettingsViewController.swift in Sources */,
+				C7AD7AC22850FACE0087ABE0 /* SideMenuViewController.swift in Sources */,
 				C7AD7A682850F70E0087ABE0 /* ViewController.swift in Sources */,
 				C7AD7A642850F70E0087ABE0 /* AppDelegate.swift in Sources */,
 				C7AD7A662850F70E0087ABE0 /* SceneDelegate.swift in Sources */,
+				C7AD7ABD2850FA060087ABE0 /* MenuModel.swift in Sources */,
+				C7AD7AB22850F9C70087ABE0 /* ProfileViewController.swift in Sources */,
+				C7AD7AA82850F9790087ABE0 /* MoviesViewController.swift in Sources */,
 				C7AD7A6E2850F70E0087ABE0 /* sideMenu.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
